@@ -1,0 +1,50 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    max-width: 320px;
+    margin: 1rem auto;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #111827;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-content {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  /* Estilos Responsivos */
+  @media (max-width: 768px) {
+    .card {
+      padding: 1rem;
+      max-width: 100%;
+    }
+  
+    .card-title {
+      font-size: 1.1rem;
+    }
+  
+    .card-content {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      padding: 0.75rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-content {
+      font-size: 0.9rem;
+    }
+  }
+  
